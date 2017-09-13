@@ -58,7 +58,7 @@
 #warning MJRefresh框架的特点：任何可以滚动的控件，如UIScrollView，UITableView,UICollectionView都可以添加刷新控件
     //在顶部添加拉刷新控件
     MJRefreshNormalHeader *header =[MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
-    [header setTitle:@"KB正在帮你加载..." forState:MJRefreshStateRefreshing];
+    [header setTitle:@"KOBE 正在帮你加载..." forState:MJRefreshStateRefreshing];
     self.header = header;
     workflowView.mj_header =header;
 }
