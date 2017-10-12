@@ -44,6 +44,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //第一次提交
     self.view.backgroundColor =[UIColor orangeColor];
     //创建一个工作流
     ZGWorkflowView *workflowView =[[ZGWorkflowView alloc] init];
